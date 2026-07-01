@@ -1,11 +1,23 @@
-name       = "wasimi-api"
-main       = "src/index.js"
-compatibility_date = "2024-01-01"
+name                   = "wasimi-api"
+main                   = "src/index.js"
+compatibility_date     = "2024-09-23"
+compatibility_flags    = ["nodejs_compat"]
 
-# Secrets (set via `wrangler secret put GHOST_URL` etc — never put values here)
-# GHOST_URL   — your Ghost instance URL
-# GHOST_KEY   — Ghost Content API key (read-only)
+# ── Secrets (set via `wrangler secret put <NAME>`, never put values here) ──
+# GHOST_URL     — Ghost instance URL (e.g. https://cms.wasimi.yourdomain.com)
+# GHOST_KEY     — Ghost Content API key (read-only)
+# OLLAMA_URL    — Homelab Ollama URL (e.g. http://100.x.x.x:11434 via Tailscale)
+# OLLAMA_MODEL  — e.g. llama3 or mistral (default: llama3)
 
 [vars]
-# Public vars only (no secrets)
-ALLOWED_ORIGIN = "https://wasimi.pages.dev"
+ALLOWED_ORIGIN = "https://wasimi.pages.dev"  # update after custom domain
+USE_OLLAMA     = "false"                      # flip to "true" to use homelab Ollama
+
+# ── Cloudflare AI binding ──────────────────────────────────────────────────────
+[ai]
+binding = "AI"
+
+# ── Vectorize binding ──────────────────────────────────────────────────────────
+[[vectorize]]
+binding    = "VECTORIZE"
+index_name = "wasimi-wiki"

@@ -1,10 +1,10 @@
 [
-  { "id": "compass", "icon": "compass", "title": "Getting There",    "count": 11, "desc": "Directions and road conditions from Lagos, Ibadan, and beyond." },
-  { "id": "arch",    "icon": "arch",    "title": "About the House",  "count": 13, "desc": "The vision, master plan, and full construction timeline." },
-  { "id": "shield",  "icon": "shield",  "title": "Safety & Health",  "count": 11, "desc": "Security, readiness, and health protocols on-site." },
-  { "id": "hammer",  "icon": "hammer",  "title": "Volunteering",     "count": 10, "desc": "How to offer your skills, time, or a weekend on-site." },
-  { "id": "globe",   "icon": "globe",   "title": "Community",        "count": 8,  "desc": "How Wasimi's neighbours are part of the story." },
-  { "id": "cross",   "icon": "cross",   "title": "Spiritual Vision", "count": 7,  "desc": "The word, the leadership, and the 'why' behind the house." },
-  { "id": "family",  "icon": "family",  "title": "Families & Youth", "count": 6,  "desc": "Bringing children, youth programmes, and inter-generational life." },
-  { "id": "lamp",    "icon": "lamp",    "title": "Worship Life",     "count": 5,  "desc": "Services, gatherings, and future retreat plans." }
+  { "id": "getting-there",   "icon": "compass", "title": "Getting There",    "count": 3, "desc": "Directions from Lagos and Ibadan, parking, and site access." },
+  { "id": "about-the-house", "icon": "arch",    "title": "About the House",  "count": 3, "desc": "The vision, building phases, and the full master plan." },
+  { "id": "safety-health",   "icon": "shield",  "title": "Safety & Health",  "count": 3, "desc": "Site safety rules, health precautions, and emergency contacts." },
+  { "id": "volunteering",    "icon": "hammer",  "title": "Volunteering",     "count": 3, "desc": "How to offer time, skills needed, and your first day on site." },
+  { "id": "community",       "icon": "globe",   "title": "Community",        "count": 2, "desc": "The village of Wasimi and how the house serves it beyond worship." },
+  { "id": "spiritual-vision","icon": "cross",   "title": "Spiritual Vision", "count": 2, "desc": "The meaning of the name, EGFM, and the founding vision." },
+  { "id": "families-youth",  "icon": "family",  "title": "Families & Youth", "count": 2, "desc": "Bringing children to site and the youth volunteering programme." },
+  { "id": "worship-life",    "icon": "lamp",    "title": "Worship Life",     "count": 2, "desc": "Current gathering schedule, retreats, and how to join." }
 ]

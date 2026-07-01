@@ -1,0 +1,158 @@
+[
+  {
+    "id": "getting-there",
+    "title": "Getting There",
+    "icon": "compass",
+    "articles": [
+      {
+        "id": "gt-directions-lagos",
+        "title": "Directions from Lagos",
+        "content": "Wasimi is located in Ogun State, approximately 90 minutes from Lagos by road under normal traffic conditions. From Lagos, take the Lagos-Ibadan Expressway (Otedola Bridge entrance) and travel north past Sagamu interchange. Exit at the Sagamu-Ore road and follow signs toward Ilishan. From Ilishan junction, turn left onto the Wasimi approach road — a well-marked red earth road. The site is visible from the junction on clear days. Allow an extra 30 minutes during rush hours (7–10am and 4–7pm on weekdays). A fuel station at Sagamu interchange is the last reliable one before the site; fill up there if your tank is low. Ride-sharing apps (Bolt, Uber) operate to the Sagamu junction but not all the way to the site — arrange a local okada or tricycle from Ilishan market for the final stretch."
+      },
+      {
+        "id": "gt-ibadan",
+        "title": "Coming from Ibadan or further north",
+        "content": "From Ibadan, take the Lagos-Ibadan Expressway southbound. The journey takes roughly 45–60 minutes depending on traffic around Sagamu. Exit at Sagamu interchange (do not continue toward Lagos). At the roundabout, follow the Sagamu-Ore road east for approximately 12km, then turn right at the Ilishan signpost. From Ibadan, a direct bus to Sagamu departs from New Garage motor park — journey time is around 1 hour 20 minutes. From Abeokuta, take the Sagamu-Abeokuta Expressway to Sagamu town center, then follow as above. Visitors from Benin or further east along the expressway can also exit at Sagamu and follow the same route."
+      },
+      {
+        "id": "gt-parking",
+        "title": "Parking and access at the site",
+        "content": "A cleared parking area accommodates approximately 40 vehicles at present, with overflow parking on the grass verge of the approach road. The parking area is unmanned — please park considerately and leave space for construction vehicles on the eastern edge. There is no formal disability access route yet; the ground is uneven. Visitors with mobility needs are encouraged to call ahead (contact details on the Involve page) so the site team can arrange a vehicle to the nearest accessible point. Motorcycles and tricycles can drop off at the site entrance. There is no overnight parking at the site currently."
+      }
+    ]
+  },
+  {
+    "id": "about-the-house",
+    "title": "About the House",
+    "icon": "arch",
+    "articles": [
+      {
+        "id": "ah-vision",
+        "title": "The vision and purpose of Wasimi",
+        "content": "Wasimi is being built as a permanent house of worship, community gathering, and inter-generational life under Eternal Glory Family Ministries (EGFM). It is not simply a church building — it is conceived as a compound: a sanctuary, a hall for teaching and convocation, a courtyard for community life, and eventually a retreat and formation centre. The word 'Wasimi' itself means 'a place of rest' in Yoruba — and the building is intended to embody that: a place where the weary find rest, where the seeking find answers, and where families find a spiritual home that will outlast the current generation. The project is led by EGFM but designed to serve the wider Wasimi village and surrounding communities regardless of denomination."
+      },
+      {
+        "id": "ah-phases",
+        "title": "Building phases explained",
+        "content": "The Wasimi project is structured in four phases. Phase One (complete) covered land acquisition, site clearing, and boundary marking. Phase Two (complete) covered borehole drilling, perimeter fencing, and site access road. Phase Three (current, ongoing) covers the foundation pour, ground-floor column casting, and the main sanctuary slab — this is the phase visible to most visitors today. Phase Four covers the superstructure, roofing, internal fitting, and landscaping. Phases are funded as resources become available and are not tied to a fixed calendar — the priority is quality over speed. There is no fundraising target displayed on this platform intentionally; the work advances as the community advances it."
+      },
+      {
+        "id": "ah-masterplan",
+        "title": "The master plan: what the finished house will look like",
+        "content": "The completed Wasimi complex will contain a main sanctuary seating approximately 800 persons, with a flexible overflow capacity to 1,200 using the adjacent courtyard. A secondary hall (capacity 200) will serve smaller gatherings, training events, and youth programmes. A children's wing with purpose-designed classrooms and a safe outdoor play area will sit on the eastern edge of the compound. Administrative offices, a small library, and accommodation for retreatants will form the northern block. The entire complex is designed around a central courtyard — open to the sky — which serves as the community heart of the site. All buildings are single-storey to respect the skyline and the village landscape."
+      }
+    ]
+  },
+  {
+    "id": "safety-health",
+    "title": "Safety & Health",
+    "icon": "shield",
+    "articles": [
+      {
+        "id": "sh-site-safety",
+        "title": "Site safety guidelines for visitors",
+        "content": "Wasimi is an active construction site. All visitors must sign in at the site office on arrival. Hard hats are required beyond the visitor viewing area — the site team will provide them. Closed-toed shoes are mandatory; open sandals are not permitted in the active construction zones. Children under 16 must be accompanied by an adult at all times and are not permitted in the active build area. Photography is welcome in the visitor area and the completed sections of the site, but please ask the site coordinator before photographing workers or active machinery. Do not touch any formwork, scaffolding, or reinforcement steel. If you are unsure of a boundary, ask — the site team is always available to guide you."
+      },
+      {
+        "id": "sh-health",
+        "title": "Health precautions for site visits",
+        "content": "The Wasimi site is a rural environment. Visitors are advised to take the following precautions: Apply insect repellent before arriving, particularly in the evening hours when mosquito activity is higher. Carry drinking water — the borehole water is clean and available on site, but bottled water is also available from the site store. The nearest clinic is at Ilishan General Hospital, approximately 6km from the site (15 minutes by road). For emergencies, the site first aid officer can be reached through the site manager. Wear light, breathable clothing in the dry season — temperatures at the site regularly reach 32–36°C between November and March. In the wet season (April–October), the approach road can become muddy — sturdy footwear is particularly advised."
+      },
+      {
+        "id": "sh-emergency",
+        "title": "Emergency contacts",
+        "content": "Site First Aid Officer: available through the site manager during working hours (7am–5pm, Mon–Sat). Nearest hospital: Ilishan General Hospital, Ilishan-Remo (approximately 6km, 15 minutes). Nearest police: Sagamu Police Station (approximately 18km, 30 minutes). In the event of a medical emergency on site, alert the nearest EGFM site staff immediately — do not try to move an injured person without guidance. The site manager's number is shared with all registered volunteers at the point of induction. For non-emergency matters, contact the EGFM team through the Refer or Volunteer forms on this platform."
+      }
+    ]
+  },
+  {
+    "id": "volunteering",
+    "title": "Volunteering",
+    "icon": "hammer",
+    "articles": [
+      {
+        "id": "vol-how",
+        "title": "How to offer your time at Wasimi",
+        "content": "Volunteering at Wasimi is open to anyone in good health who is 16 or older. There is no minimum commitment — a single Saturday is as welcome as a recurring monthly visit. To register, use the Volunteer form on the Involve page. You will receive an induction pack by email within 48 hours of submitting your form, along with a suggested first visit date based on the current phase of work. Walk-in volunteers are also welcome but pre-registration is strongly preferred so the site team can plan accordingly. There is no payment for volunteering, but meals are provided during site days and transport can sometimes be arranged from Sagamu — ask when you register."
+      },
+      {
+        "id": "vol-skills",
+        "title": "Skilled trades currently needed",
+        "content": "The Wasimi project currently has active needs in the following areas: Structural engineering (for Phase Three column casting oversight), Plumbing and drainage (preparation for Phase Four groundworks), Electrical (conduit laying before the slab is poured), Masonry and block-laying, Photography and videography (for site documentation), and Administrative support (scheduling, supplier coordination). Unskilled general labour is also always welcome — there is meaningful work in clearing, carrying, and site maintenance regardless of trade. If your skill is not on this list but you believe it is relevant, use the Volunteer form and describe what you can offer — the team will respond."
+      },
+      {
+        "id": "vol-firstday",
+        "title": "Your first day on site",
+        "content": "On your first visit to Wasimi, report to the site office (the green container at the site entrance) by 7:30am on a Saturday, or 8am on a weekday. Bring a valid ID, your induction confirmation email, and your own water bottle. You will receive a brief site orientation (approximately 20 minutes) covering safety, site layout, and the day's work plan. You will then be paired with an experienced site member for your first session. Lunch is served at 1pm in the site shade area. Most site days run 7:30am–4pm on Saturdays and 8am–5pm on weekdays, though you are free to stay for whatever portion fits your schedule. At the end of the day, please sign out at the site office."
+      }
+    ]
+  },
+  {
+    "id": "community",
+    "title": "Community",
+    "icon": "globe",
+    "articles": [
+      {
+        "id": "com-village",
+        "title": "The village of Wasimi",
+        "content": "Wasimi is a small farming and residential community in Ogun State, Nigeria, part of the Remo North local government area. The village has a population of approximately 2,000 and is governed by the Baale of Wasimi in conjunction with a council of elders. The primary livelihoods are cocoa and cassava farming, small-scale trade, and — increasingly — commuter employment in Sagamu and Lagos. Wasimi has had a Christian presence for several generations but has not had a purpose-built worship facility of its own. The community surrounding the site has been broadly welcoming of the project, and several village families have offered land, labour, and logistics support at various stages of construction."
+      },
+      {
+        "id": "com-involvement",
+        "title": "How the house serves the village beyond worship",
+        "content": "From its earliest conception, the Wasimi project has been designed to serve the village — not just the EGFM congregation. The compound will include a public hall available to community groups for meetings, civic events, and celebrations. The children's wing is designed to operate school holiday programmes and after-school tutoring open to all village children, not only those of church families. The borehole installed in Phase Two provides clean water access to surrounding households and remains operational 24 hours a day free of charge. As the compound develops, EGFM intends to explore health outreach — seasonal clinic days, nutrition support — in partnership with local health workers."
+      }
+    ]
+  },
+  {
+    "id": "spiritual-vision",
+    "title": "Spiritual Vision",
+    "icon": "cross",
+    "articles": [
+      {
+        "id": "sv-word",
+        "title": "The word 'Wasimi' — meaning and origin",
+        "content": "Wasimi (wa-SI-mi) is a Yoruba word meaning 'come and rest with me' or more simply 'a place of rest.' The name was given to the site in prayer before construction began — it was not chosen from a shortlist or voted on. The leaders of EGFM describe the naming as a moment of received clarity: that this place was to be first and foremost a place where people could rest — from labour, from fear, from distance. The name carries a hospitality that is intended to shape every decision about the building: who is welcome, how people are received, what the spaces feel like. The building should feel, when complete, like somewhere you have been expected."
+      },
+      {
+        "id": "sv-egfm",
+        "title": "About EGFM and the Wasimi project",
+        "content": "Eternal Glory Family Ministries (EGFM) is a Christian ministry with roots in Lagos, Nigeria. The ministry has operated without a permanent facility for the majority of its history — gatherings have been held in rented halls, courtyards, and open-air spaces. The decision to build at Wasimi came after years of prayer and a recognition that a permanent base was needed — not for institutional reasons, but because the work of the community (formation, hospitality, extended retreats, family ministry) requires a place that can be arranged, returned to, and built into over time. EGFM describes its theological posture as rooted in scripture, oriented toward family and inter-generational life, and committed to practical service of the communities it is part of."
+      }
+    ]
+  },
+  {
+    "id": "families-youth",
+    "title": "Families & Youth",
+    "icon": "family",
+    "articles": [
+      {
+        "id": "fy-children",
+        "title": "Bringing children to site visits",
+        "content": "Children are welcome at Wasimi and the team is experienced in hosting family visits. For site visit safety: children under 12 must remain in the visitor area or the cleared southern section of the compound at all times. The visitor area has shade, seating, and a small play space. Children 12–16 may enter the construction zones only with a registered adult supervisor and after a brief child-specific safety talk (5 minutes, given by the site manager). There are clean toilet facilities in the site container block — please ask the site coordinator to show you on arrival. If you are bringing more than 3 children, please let the team know in advance via the Volunteer form so they can prepare accordingly."
+      },
+      {
+        "id": "fy-youth",
+        "title": "Youth volunteering at Wasimi",
+        "content": "Young people aged 16–25 are among the most active volunteers at the Wasimi site and are explicitly welcomed. Youth volunteers participate in the same site activities as adults — general labour, documentation, administration — and can also join the youth documentation team: a group of young creatives capturing the construction story through photography, video, and writing for the Journal. There is no formal youth programme yet (it is planned for Phase Four when the site has indoor facilities), but quarterly youth days are held at the site — a mix of work, worship, and reflection. These are announced through the Journal. To join the youth volunteer list, use the standard Volunteer form and mention your age."
+      }
+    ]
+  },
+  {
+    "id": "worship-life",
+    "title": "Worship Life",
+    "icon": "lamp",
+    "articles": [
+      {
+        "id": "wl-schedule",
+        "title": "Current worship schedule at Wasimi",
+        "content": "While the permanent building is under construction, EGFM holds gatherings at the site in the open-air courtyard area. These are informal but intentional — not large convocations, but smaller gatherings suited to the current state of the site. A Sunday morning gathering is held on the first Sunday of each month, beginning at 9am. These are open to all — no prior registration is needed. Additional prayer gatherings are held on the site on the last Friday evening of each month at 6pm. These are prayer and reflection sessions, informal in format, and typically draw 20–40 people. Times and dates are confirmed weekly through the Journal — subscribe on the Involve page to receive updates."
+      },
+      {
+        "id": "wl-retreats",
+        "title": "Retreats and special gatherings",
+        "content": "Several times a year, EGFM organises extended gatherings at the Wasimi site — day retreats and, occasionally, overnight events using temporary accommodation. These are not published far in advance because they respond to the season of the building work and the availability of the site. Subscribers to the Journal receive notice of these events at least 3 weeks in advance. Retreats are designed for prayer, reflection, and community — they are not conferences or teaching events in the conventional sense. They are open to all who wish to attend, and there is no charge. If you would like to be considered for future retreat planning or hosting, use the Volunteer form and mention retreats specifically."
+      }
+    ]
+  }
+]
