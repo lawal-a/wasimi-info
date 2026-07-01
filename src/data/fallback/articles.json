@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fallback-1",
+    "slug": "foundation-pour",
+    "tag": "Construction",
+    "date": "JUNE 26, 2026",
+    "title": "Inside the foundation pour — a week the ground remembers",
+    "excerpt": "A quiet account of the artisans who led the pour, and what it means for the house taking shape above it. The concrete was mixed before dawn; by midday the mould was set."
+  },
+  {
+    "id": "fallback-2",
+    "slug": "families-changing",
+    "tag": "Community",
+    "date": "JUN 19, 2026",
+    "title": "The families whose lives are already changing",
+    "excerpt": "Voices from the village on what the house means before its doors have opened."
+  },
+  {
+    "id": "fallback-3",
+    "slug": "why-wasimi",
+    "tag": "Reflection",
+    "date": "JUN 12, 2026",
+    "title": "Why Wasimi? The word that started it all",
+    "excerpt": "Tracing the name back to its roots, and the prayer that named the place."
+  },
+  {
+    "id": "fallback-4",
+    "slug": "borehole-story",
+    "tag": "Construction",
+    "date": "JUN 5, 2026",
+    "title": "Water access solved: the borehole story",
+    "excerpt": "How one infrastructure problem, solved quietly, changed the daily rhythm of the site."
+  },
+  {
+    "id": "fallback-5",
+    "slug": "engineers-saturdays",
+    "tag": "Testimony",
+    "date": "MAY 29, 2026",
+    "title": "The engineers who gave up their Saturdays",
+    "excerpt": "Five professionals, one site, and a dozen weekends they will not forget."
+  },
+  {
+    "id": "fallback-6",
+    "slug": "baale-conversation",
+    "tag": "Community",
+    "date": "MAY 22, 2026",
+    "title": "A conversation with the Baale of Wasimi",
+    "excerpt": "On land, legacy, and what this house means for the village.",
+    "wide": true
+  }
+]

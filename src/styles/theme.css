@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500;1,600&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --parchment: #E9DFC6;
+  --parchment-light: #F1E9D3;
+  --parchment-mid: #DDD3B8;
+  --ink: #211A10;
+  --charburn: #1A130A;
+  --charburn-mid: #241A0E;
+  --gold: #B8862F;
+  --gold-bright: #D6A84A;
+  --gold-deep: #8C6420;
+  --terracotta: #96432A;
+  --line: rgba(33,26,16,0.14);
+  --line-strong: rgba(33,26,16,0.24);
+  --muted: #6B5C3F;
+  --muted-light: #9B8B6E;
+  --spine-w: 118px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--charburn);
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+h1, h2, h3, h4, h5 { font-family: 'Playfair Display', serif; }
+svg { display: block; flex-shrink: 0; }
+
+/* Parchment noise texture overlay */
+.parchment-noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(182,140,60,0.35); border-radius: 4px; }

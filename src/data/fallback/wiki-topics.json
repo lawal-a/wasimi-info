@@ -1,0 +1,10 @@
+[
+  { "id": "compass", "icon": "compass", "title": "Getting There",    "count": 11, "desc": "Directions and road conditions from Lagos, Ibadan, and beyond." },
+  { "id": "arch",    "icon": "arch",    "title": "About the House",  "count": 13, "desc": "The vision, master plan, and full construction timeline." },
+  { "id": "shield",  "icon": "shield",  "title": "Safety & Health",  "count": 11, "desc": "Security, readiness, and health protocols on-site." },
+  { "id": "hammer",  "icon": "hammer",  "title": "Volunteering",     "count": 10, "desc": "How to offer your skills, time, or a weekend on-site." },
+  { "id": "globe",   "icon": "globe",   "title": "Community",        "count": 8,  "desc": "How Wasimi's neighbours are part of the story." },
+  { "id": "cross",   "icon": "cross",   "title": "Spiritual Vision", "count": 7,  "desc": "The word, the leadership, and the 'why' behind the house." },
+  { "id": "family",  "icon": "family",  "title": "Families & Youth", "count": 6,  "desc": "Bringing children, youth programmes, and inter-generational life." },
+  { "id": "lamp",    "icon": "lamp",    "title": "Worship Life",     "count": 5,  "desc": "Services, gatherings, and future retreat plans." }
+]

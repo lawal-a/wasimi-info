@@ -1,0 +1,11 @@
+name       = "wasimi-api"
+main       = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Secrets (set via `wrangler secret put GHOST_URL` etc — never put values here)
+# GHOST_URL   — your Ghost instance URL
+# GHOST_KEY   — Ghost Content API key (read-only)
+
+[vars]
+# Public vars only (no secrets)
+ALLOWED_ORIGIN = "https://wasimi.pages.dev"
