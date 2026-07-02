@@ -1,13 +1,54 @@
 import { useState, useRef } from 'react'
 import { wikiTopics } from '../lib/content'
+import { MEDIA } from '../data/media-config'
 import Glyph from '../components/icons/Glyph'
 import styles from './Wiki.module.css'
 
 const API_URL = import.meta.env.VITE_API_URL ?? ''
 
+function AudioTrack({ track }) {
+  const audioRef              = useRef(null)
+  const [playing, setPlaying] = useState(false)
+  const [time, setTime]       = useState('0:00')
+
+  const toggle = () => {
+    if (!audioRef.current) return
+    if (playing) { audioRef.current.pause(); setPlaying(false) }
+    else         { audioRef.current.play();  setPlaying(true)  }
+  }
+
+  const onTimeUpdate = () => {
+    const s = Math.floor(audioRef.current.currentTime)
+    setTime(`${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`)
+  }
+
+  return (
+    <div className={styles.audioTrack}>
+      <div className={styles.audioInfo}>
+        <span className={styles.audioTitle}>{track.title}</span>
+        <span className={styles.audioSpeaker}>{track.speaker}</span>
+      </div>
+      {track.url ? (
+        <>
+          <audio ref={audioRef} src={track.url}
+            onTimeUpdate={onTimeUpdate}
+            onEnded={() => { setPlaying(false); setTime('0:00') }}
+          />
+          <button className={styles.playBtn} onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
+            {playing ? '⏸' : '▶'}
+          </button>
+          <span className={styles.audioTime}>{time}</span>
+        </>
+      ) : (
+        <span className={styles.audioSoon}>Soon</span>
+      )}
+    </div>
+  )
+}
+
 export default function Wiki() {
   const [query, setQuery]     = useState('')
-  const [answer, setAnswer]   = useState(null)   // { text, sources }
+  const [answer, setAnswer]   = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError]     = useState(null)
   const inputRef              = useRef(null)
@@ -28,7 +69,7 @@ export default function Wiki() {
       if (!res.ok) throw new Error(`Worker returned ${res.status}`)
       const data = await res.json()
       setAnswer(data)
-    } catch (e) {
+    } catch {
       setError('The AI guide is not available yet — the Worker is still being set up. Browse the topics below for now.')
     } finally {
       setLoading(false)
@@ -49,6 +90,7 @@ export default function Wiki() {
 
   return (
     <div className={styles.wiki}>
+
       {/* ── Top bar ── */}
       <div className={styles.top}>
         <div className={styles.topLeft}>
@@ -92,7 +134,6 @@ export default function Wiki() {
               <p>Consulting the guide…</p>
             </div>
           )}
-
           {answer && (
             <>
               <div className={styles.answerMeta}>
@@ -113,7 +154,6 @@ export default function Wiki() {
               <button className={styles.clearAnswer} onClick={clear}>Clear ×</button>
             </>
           )}
-
           {error && (
             <div className={styles.answerError}>
               <p>{error}</p>
@@ -122,6 +162,50 @@ export default function Wiki() {
           )}
         </div>
       )}
+
+      {/* ── Media strip ── */}
+      <div className={styles.mediaStrip}>
+
+        {/* Video segment */}
+        <div className={styles.mediaCard}>
+          <div className={styles.mediaCardHead}>
+            <Glyph id="video-play" size={13} color="var(--gold-deep)" />
+            <span>Featured Video</span>
+          </div>
+          {MEDIA.video.youtubeId ? (
+            <iframe
+              className={styles.videoEmbed}
+              src={`https://www.youtube.com/embed/${MEDIA.video.youtubeId}`}
+              title={MEDIA.video.label}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <div className={styles.videoPlaceholder}>
+              <Glyph id="arch" size={36} color="var(--gold-deep)" style={{ opacity: 0.3, flexShrink: 0 }} />
+              <div className={styles.videoPlaceholderText}>
+                <p className={styles.videoPlaceholderTitle}>{MEDIA.video.label}</p>
+                <p className={styles.videoPlaceholderDesc}>{MEDIA.video.description}</p>
+                <span className={styles.videoSoonBadge}>Coming soon</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Audio segment */}
+        <div className={styles.mediaCard}>
+          <div className={styles.mediaCardHead}>
+            <Glyph id="audio-wave" size={13} color="var(--gold-deep)" />
+            <span>Audio Messages</span>
+          </div>
+          <div className={styles.audioList}>
+            {MEDIA.audio.map(track => (
+              <AudioTrack key={track.id} track={track} />
+            ))}
+          </div>
+        </div>
+
+      </div>
 
       {/* ── Topic grid — always visible ── */}
       <div className={`${styles.grid} ${(loading || answer || error) ? styles.gridMuted : ''}`}>
@@ -136,6 +220,7 @@ export default function Wiki() {
           </div>
         ))}
       </div>
+
     </div>
   )
 }

@@ -112,6 +112,21 @@ export default function SvgDefs() {
           <line x1="26" y1="26" x2="36" y2="36" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
         </symbol>
 
+        <symbol id="icon-video-play" viewBox="0 0 40 40">
+          <circle cx="20" cy="20" r="16" fill="none" stroke="currentColor" strokeWidth="1.6"/>
+          <polygon points="16,13 30,20 16,27" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-audio-wave" viewBox="0 0 38 28">
+          <line x1="1"  y1="14" x2="1"  y2="14" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          <line x1="7"  y1="9"  x2="7"  y2="19" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          <line x1="13" y1="4"  x2="13" y2="24" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          <line x1="19" y1="1"  x2="19" y2="27" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          <line x1="25" y1="4"  x2="25" y2="24" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          <line x1="31" y1="9"  x2="31" y2="19" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+          <line x1="37" y1="14" x2="37" y2="14" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        </symbol>
+
         <symbol id="icon-laurel" viewBox="0 0 80 40">
           <path d="M10 20 C8 14 12 8 18 10 C14 16 16 22 22 22" fill="none" stroke="currentColor" strokeWidth="1.4"/>
           <path d="M10 20 C6 20 4 26 8 28 C10 22 16 22 18 26" fill="none" stroke="currentColor" strokeWidth="1.4"/>
