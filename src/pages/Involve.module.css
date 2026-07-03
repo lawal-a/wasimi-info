@@ -160,7 +160,22 @@
 .giveLink:hover { opacity: 0.7; }
 
 @media (max-width: 980px) {
-  .involve { padding: 1.4rem 1.4rem; overflow-y: auto; grid-template-rows: auto auto; }
-  .grid { grid-template-columns: 1fr; grid-template-rows: auto; }
+  .involve {
+    padding: 1.4rem 1.4rem 2rem;
+    overflow-y: auto;
+    grid-template-rows: auto auto;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    overflow: visible;
+  }
   .subRow { grid-template-columns: 1fr; }
+  .heading { font-size: 1.5rem; }
+}
+
+@media (max-width: 520px) {
+  .involve { padding: 1.2rem 1rem 2rem; }
+  .card { padding: 1.1rem 1rem; }
+  .heading { font-size: 1.35rem; }
 }

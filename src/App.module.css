@@ -85,6 +85,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     max-width: 100%;
-    height: 100vh;
+    height: 100dvh;   /* dvh handles mobile browser chrome collapsing correctly */
   }
+  /* Ensure parchment corners don't show on mobile */
+  .book::before, .book::after { border-radius: 0; }
 }
